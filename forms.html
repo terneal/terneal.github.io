@@ -1,0 +1,83 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="Style.css">
+	<link rel = "icon" href="media/terryl.jpg" type = "image/x=icon">
+	
+		<title>
+			Terryl Neal
+		</title>
+		<style>
+		body {
+		  background-image: url('media/background.jpg');
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+		}
+		</style>
+	</head>
+
+	<body>
+		
+		<header>
+			<div class="pageTop"> <h1> Independence Jr College </h1> </div>
+			<div class="subheading"> <h3> The IT Department </h3> </div>
+		</header>
+
+		<nav>	
+				<a href="forms.html"> <button class="button"> <span> Contact Us </span> </button> </a>
+				<a href="biography.html"> <button class="button"> <span>  My Hero </span> </button> </a>
+				<a href="profile.html"> <button class="button"> <span> Student Profiles </span> </button> </a>
+				<a href="gallery.html"> <button class="button"> <span> Gallery </span> </button> </a>
+				<a href="index.html"> <button class="button"> <span> Home </span> </button> </a>
+		</nav>
+		
+		<img class="rbanner" src="media/banner.png">
+		<img class="lbanner" src="media/banner.png">
+		
+		<div class="midsection">
+			
+			<center>
+			<h1 class="about">
+				Here's how to contact us:
+			</h1>
+			</center>
+			
+		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+		  <div class="row">
+			<label class="required" for="name">Your name:</label><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+			<span id="name_validation" class="error_message"></span>
+		  </div>
+		  <div class="row">
+			<label class="required" for="email">Your email:</label><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			<span id="email_validation" class="error_message"></span>
+		  </div>
+		  <div class="row">
+			<label class="required" for="message">Your message:</label><br />
+			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+			<span id="message_validation" class="error_message"></span>
+		  </div>
+			
+			<input id="submit_button" type="submit" value="Send email" />
+		</form>
+		
+		<a href="https://www.facebook.com/profile.php?id=100010209606124"> <img class="fb" src="media/facebook.png"> </a>
+		<a href="https://www.ijc.edu.bz/"> <img class="wp" src="media/wordpress.png"> </a>
+		 
+		<img class="ad" src="media/ad.gif">
+		
+		
+		</div>
+		
+		<footer>
+		Creator: Terryl Neal
+		</footer>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+	</body>
+	
+	
+	
+</html>
